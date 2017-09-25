@@ -1,11 +1,17 @@
 body {
-    margin: 0 0 0 0;
+    margin: 0px;
 }
 
 .app {
     display: flex;
     height: 100vh;
     flex-direction: column;
+}
+
+.body {
+    flex-grow: 13;
+    display: flex;
+    flex-direction: row;
 }
 
 .header {
@@ -15,12 +21,6 @@ body {
     justify-content: center;
     background-color: PINK;
     font-size: large;
-}
-
-.body {
-    flex-grow: 13;
-    display: flex;
-    flex-direction: row;
 }
 
 .body > div {
@@ -44,7 +44,6 @@ body {
     width: 150px;
     height: 150px;
     font-size: medium;
-    border: 1px solid BLACK;
     border-radius: 50%;
     background-color: WHITE;
     align-items: center;
