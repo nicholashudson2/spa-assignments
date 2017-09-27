@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>the holy grail</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./main.js"></script>
-  </head>
-  <body>
-    <div class="app">
-      <div class="header">
+
+<head>
+  <meta charset="utf-8">
+  <title>the holy grail</title>
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+  <script src="./main.js"></script>
+</head>
+
+<body>
+  <div class="app">
+    <div class="header">
+      <div class="field" id="total">
         Total: 0
       </div>
-      <div class="body">
-        <div class="left"></div>
-        <div class="center">
-          <div class="button">
-            +1
-          </div>
+      <div class="resetButton" id="resetButton">Reset</div>
+    </div>
+    <div class="body">
+      <div class="left">
+        <div class="field" id="multiplierCounter">
+          Multiplied: 0 Times
         </div>
-        <div class="right"></div>
+        <div class="button" id="leftButton">
+          *1.2
+        </div>
+        <div class="field" id="multiplierCost">
+          Cost: 10
+        </div>
       </div>
-      <div class="footer">
-        Made w/ &lt;3 @ FastTrack'D
+      <div class="center">
+        <div class="field" id="clickCounter">
+          Clicks: 0
+        </div>
+        <div class="button" id="centerButton">
+          +1
+        </div>
+        <div class="field" id="clickCost">
+          Cost: 0
+        </div>
+      </div>
+      <div class="right">
+        <div class="field" id="autoClickCount">
+          Added: 0
+        </div>
+        <div class="button" id="rightButton">
+          +1
+        </div>
+        <div class="field" id="autoClickCost">
+          Cost: 100
+        </div>
       </div>
     </div>
-  </body>
+    <div class="footer">
+      Made w/ &lt;3 @ FastTrack'D
+    </div>
+  </div>
+</body>
+
 </html>

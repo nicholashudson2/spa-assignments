@@ -9,13 +9,13 @@ body {
 }
 
 .body {
-    flex-grow: 13;
+    flex: 13 0 0;
     display: flex;
     flex-direction: row;
 }
 
 .header {
-    flex-grow: 1;
+    flex: 1 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .left {
-    flex-grow: 1;
+    flex: 1 0 0;
     background-color: RED;
 }
 
@@ -51,12 +51,12 @@ body {
 }
 
 .right {
-    flex-grow: 1;
+    flex: 1 0 0;
     background-color: BLUE;
 }
 
 .footer {
-    flex-grow: 1;
+    flex: 1 0 0;
     display: flex;
     align-items: center;
     justify-content: center;

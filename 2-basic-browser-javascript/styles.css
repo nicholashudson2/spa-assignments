@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    color: rgba(000, 000, 000, 0.87)
+}
+
+.body {
+    flex: 13 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: PINK;
+    font-size: large;
+}
+
+.body > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: RED;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    background-color: GREEN;
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    font-size: medium;
+    border-radius: 50%;
+    background-color: WHITE;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetButton {
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: WHITE;
+    border-radius: 5%;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: BLUE;
+}
+
+.footer {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: GRAY;
+    font-size: small;
+}
