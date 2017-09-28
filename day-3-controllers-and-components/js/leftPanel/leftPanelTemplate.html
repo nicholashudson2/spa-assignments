@@ -1,0 +1,11 @@
+<div class="leftPanelStyle">
+  <div class="field" id="multiplierCounter" ng-model="$ctrl.battleClickService.leftClicks">
+    Multiplied: {{ $ctrl.battleClickService.leftClicks }} Times
+  </div>
+  <div class="button" id="leftButton" ng-click="$ctrl.battleClickService.multiply()" ng-style="{ 'background-color': $ctrl.battleClickService.leftButtonColor }">
+    *1.2
+  </div>
+  <div class="field" id="multiplierCost" ng-model="$ctrl.battleClickService.leftPrice">
+    Cost: {{ $ctrl.battleClickService.leftPrice }}
+  </div>
+</div>

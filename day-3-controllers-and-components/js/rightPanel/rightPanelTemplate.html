@@ -1,0 +1,11 @@
+<div class="rightPanelStyle">
+    <div class="field" id="autoClickCount" ng-model="$ctrl.battleClickService.rightClicks">
+        Added: {{ $ctrl.battleClickService.rightClicks }}
+    </div>
+    <div class="button" id="rightButton" ng-click="$ctrl.battleClickService.autoClick()" ng-style="{ 'background-color': $ctrl.battleClickService.rightButtonColor }">
+        +1
+    </div>
+    <div class="field" id="autoClickCost" ng-model="$ctrl.battleClickService.rightPrice">
+        Cost: {{ $ctrl.battleClickService.rightPrice }}
+    </div>
+</div>

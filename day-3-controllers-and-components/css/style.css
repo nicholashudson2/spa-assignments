@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    color: rgba(000, 000, 000, 0.87);
+    user-select: none;
+}
+
+.topPanelStyle {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: PINK;
+    font-size: large;
+}
+
+.body {
+    flex: 13 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPanelStyle {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: RED;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerPanelStyle {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    background-color: GREEN;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    font-size: medium;
+    border-radius: 50%;
+    background-color: WHITE;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetButton {
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: WHITE;
+    border-radius: 5px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightPanelStyle {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: BLUE;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: GRAY;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,6 @@
+<div class="topPanelStyle">
+    <div class="field" id="total" ng-model="$ctrl.battleClickService.total" ng-init="topPanelController.load">
+        Total: {{ $ctrl.battleClickService.total | number: 2 }}
+    </div>
+    <div class="resetButton" id="resetButton" ng-style="{ 'background-color': $ctrl.battleClickService.resetColor }" ng-click="$ctrl.battleClickService.reset()">Reset</div>
+</div>

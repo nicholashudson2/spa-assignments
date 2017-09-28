@@ -1,0 +1,11 @@
+<div class="centerPanelStyle">
+  <div class="field" id="clickCounter" ng-model="$ctrl.battleClickService.centerClicks">
+    Clicks: {{ $ctrl.battleClickService.centerClicks }}
+  </div>
+  <div class="button" id="centerButton" ng-model="$ctrl.battleClickService.centerValue" ng-click="$ctrl.battleClickService.add()">
+    {{ $ctrl.battleClickService.centerValue | number: 2}}
+  </div>
+  <div class="field" id="clickCost">
+    Cost: 0
+  </div>
+</div>
